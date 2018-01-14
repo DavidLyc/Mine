@@ -1,7 +1,13 @@
 # 矿山安全检查
+
 ## 说明
 该软件用于山东某矿业公司进行安全检查
+
+## 截图
+<img src="ui.jpg" width="40%" height="40%" />
+
 ## 感谢以下开源框架
+
 * butterknife
 * rxjava
 * rxandroid
@@ -15,6 +21,7 @@
 * material-spinner
 * SmartRefreshLayout
 * Umeng
+
 ## 许可证
     Copyright 2018 DavidLyc
     
