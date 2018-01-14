@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="loginbutton_textsize">20sp</dimen>
+    <dimen name="homebutton_textsize">34sp</dimen>
+    <dimen name="toolbar_textsize">20sp</dimen>
+    <dimen name="divideline">1dp</dimen>
+    <dimen name="grid_expected_size">120dp</dimen>
+
+</resources>

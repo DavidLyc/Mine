@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_barBackground">#0367e1</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="divide_line">#e0e0e0</color>
+    <color name="normal_text_color">#48495F</color>
+    <color name="color_activity_background">#ececec</color>
+    <color name="OK_color">#30BA30</color>
+    <color name="NotOK_color">#d81e06</color>
+    <color name="tabSelectedTextColor">#2e2e2e</color>
+    <color name="tabTextColor">#989898</color>
+    <color name="tabBackGroundColor">#fdfefe</color>
+    <color name="gray">#8e8e8e</color>
+    <color name="darkGray">#696969</color>
+    <color name="yellow">#ebb81e</color>
+    <color name="bottom_text_color">#818497</color>
+</resources>

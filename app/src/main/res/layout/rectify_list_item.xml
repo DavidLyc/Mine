@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="6dp"
+    android:background="@color/color_activity_background"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/rectify_list_item_checkMemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/normal_text_color"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/rectify_list_item_rectifyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rectify_list_item_checkMemo"
+            android:layout_marginTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/normal_text_color"
+            android:textSize="17sp" />
+        <ImageView
+            android:id="@+id/rectify_list_item_choose_circle"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_circle"/>
+
+        <TextView
+            android:id="@+id/rectify_list_item_rectifactionEndDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rectify_list_item_rectifyInfo"
+            android:layout_marginTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/normal_text_color"
+            android:textSize="17sp" />
+        <TextView
+            android:id="@+id/rectify_list_item_photoTip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rectify_list_item_rectifactionEndDate"
+            android:layout_marginTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:text="@string/photo"
+            android:textColor="@color/normal_text_color"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/rectify_list_item_photo"
+            android:layout_width="26dp"
+            android:layout_height="23dp"
+            android:layout_below="@+id/rectify_list_item_rectifactionEndDate"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/rectify_list_item_photoTip"
+            android:src="@drawable/icon_photo" />
+        <TextView
+            android:id="@+id/rectify_list_item_watch_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rectify_list_item_rectifactionEndDate"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/watch"
+            android:paddingStart="10dp"
+            android:textColor="@color/normal_text_color"
+            android:textSize="17sp" />
+
+
+        <EditText
+            android:id="@+id/rectify_list_item_rectifyDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rectify_list_item_photoTip"
+            android:layout_marginEnd="6dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="7dp"
+            android:hint="@string/rectify_description"
+            android:inputType="textMultiLine"
+            android:maxLength="140"
+            android:textSize="16sp"
+            android:theme="@style/EditTextAppearance" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

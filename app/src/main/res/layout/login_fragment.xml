@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/login_bg" />
+
+    <ImageView
+        android:id="@+id/login_safe_hat"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignStart="@+id/login_fragment_account_rectangle"
+        android:layout_marginTop="260dp"
+        android:src="@drawable/login_safehat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/login_safe_hat"
+        android:layout_marginStart="6dp"
+        android:layout_toEndOf="@id/login_safe_hat"
+        android:text="@string/user_login"
+        android:textColor="@color/colorWhite"
+        android:textSize="17sp" />
+
+    <RelativeLayout
+        android:id="@+id/login_fragment_account_rectangle"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_safe_hat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white_rectangle"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/login_fragment_account_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_account"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/login_fragment_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/login_fragment_account_text"
+            android:background="@null"
+            android:inputType="text"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textColor="@color/colorWhite"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/login_password_rectangle"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_fragment_account_rectangle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white_rectangle"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/login_fragment_pwd_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0.2dp"
+            android:text="密    码:"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/login_fragment_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/login_fragment_pwd_text"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textColor="@color/colorWhite"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/login_press"
+        android:layout_width="237dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/login_password_rectangle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/login_color_button"
+        android:text="@string/certain"
+        android:textColor="@color/colorWhite"
+        android:textSize="17sp" />
+
+</RelativeLayout>
+

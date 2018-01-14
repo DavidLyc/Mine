@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/manage_todo_customview_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-19dp"
+        android:textColor="@color/normal_text_color"
+        android:textSize="16sp"
+        app:ms_dropdown_max_height="130dp" />
+
+    <EditText
+        android:id="@+id/manage_todo_customview_rectify_people_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:hint="@string/rectify_people"
+        android:maxLength="8"
+        android:textSize="16sp"
+        android:theme="@style/EditTextAppearance" />
+
+    <ImageView
+        android:id="@+id/manage_todo_customview_rectify_people_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/manage_todo_customview_rectify_people_edit"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="13dp"
+        android:src="@drawable/icon_search" />
+
+</RelativeLayout>

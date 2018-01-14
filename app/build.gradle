@@ -1,0 +1,84 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'org.greenrobot.greendao'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.2"
+    defaultConfig {
+        multiDexEnabled true
+        applicationId "com.whut.mine"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 4
+        versionName "1.0.3"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+greendao {
+    schemaVersion 15
+    daoPackage 'com.whut.mine.greendao'
+    targetGenDir 'src/main/java'
+}
+
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        def requested = details.requested
+        if (requested.group == 'com.android.support') {
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion "$support_version"
+            }
+        }
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    compile "com.android.support:appcompat-v7:$support_version"
+    compile "com.android.support:recyclerview-v7:$support_version"
+    compile "com.android.support:cardview-v7:$support_version"
+
+    //butterknife
+    compile "com.jakewharton:butterknife:$butterknife_version"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$butterknife_version"
+
+    //rx
+    compile "io.reactivex.rxjava2:rxandroid:$rxandroid_version"
+    compile "io.reactivex.rxjava2:rxjava:$rxjava_version"
+
+    //greendao
+    compile "org.greenrobot:greendao:$greendao_version"
+    compile "org.greenrobot:greendao-generator:$greendao_version"
+
+    //runtime permission
+    compile 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar'
+
+    //gson
+    compile "com.google.code.gson:gson:$gson_version"
+
+    //photo
+    compile "com.github.bumptech.glide:glide:$glide_version"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glide_version"
+    compile "com.yanzhenjie:album:$album_version"
+
+    //ui
+    compile "com.github.CymChad:BaseRecyclerViewAdapterHelper:$BRVAH_version"
+    compile 'com.afollestad.material-dialogs:core:0.9.6.0'
+    compile 'com.jaredrummler:material-spinner:1.2.3'
+    compile "com.scwang.smartrefresh:SmartRefreshLayout:$SmartRefresh_version"
+    compile "com.scwang.smartrefresh:SmartRefreshHeader:$SmartRefresh_version"
+
+    //umeng
+    compile project(':PushSDK')
+
+}

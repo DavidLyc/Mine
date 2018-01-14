@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/third_index_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/second_index_check_icon"
+    android:layout_marginStart="-5dp"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:id="@+id/third_index_spinner_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/third_index_spinner_tip"
+        android:textColor="@color/normal_text_color"
+        android:textSize="16sp" />
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/third_index_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-5dp"
+        android:layout_toEndOf="@+id/third_index_spinner_tip"
+        android:textColor="@color/normal_text_color"
+        android:textSize="16sp"
+        app:ms_background_color="@color/colorWhite"
+        app:ms_dropdown_max_height="380dp" />
+
+    <EditText
+        android:id="@+id/third_index_notOK_descrition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/third_index_spinner"
+        android:layout_marginBottom="6dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:hint="@string/notOK_inputHint"
+        android:inputType="textMultiLine"
+        android:maxLength="140"
+        android:paddingBottom="12dp"
+        android:paddingEnd="4dp"
+        android:paddingStart="4dp"
+        android:textColor="@color/normal_text_color"
+        android:textSize="16sp"
+        android:theme="@style/EditTextAppearance" />
+
+</RelativeLayout>

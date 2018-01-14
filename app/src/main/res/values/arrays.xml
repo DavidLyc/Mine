@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="check_type_array">
+        <item>选择隐患分类</item>
+        <item>设备设施类</item>
+        <item>电气类</item>
+        <item>通风类</item>
+        <item>顶板支护类</item>
+        <item>文明生产类</item>
+        <item>管理类</item>
+        <item>不安全行为类</item>
+        <item>警示标识类</item>
+        <item>其他类</item>
+    </string-array>
+
+    <string-array name="photo_choice">
+        <item>拍摄</item>
+        <item>从相册选择</item>
+    </string-array>
+
+    <string-array name="manage_instruction">
+        <item>发送整改命令</item>
+        <item>选择全部隐患</item>
+        <item>清除所有选择项</item>
+    </string-array>
+
+    <string-array name="rectify_tools">
+        <item>整改</item>
+        <item>全选</item>
+        <item>取消</item>
+    </string-array>
+
+</resources>

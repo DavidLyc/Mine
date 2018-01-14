@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="-5dp"
+    android:layout_marginBottom="1dp">
+
+    <TextView
+        android:id="@+id/second_index_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="15dp"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/normal_text_color"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/second_index_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second_index_text"
+        android:layout_marginStart="20dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="20dp"
+        android:textColor="@color/OK_color"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/second_index_check_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/second_index_check"
+        android:layout_toEndOf="@+id/second_index_check"
+        android:paddingBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="7dp"
+        android:src="@drawable/ok_icon" />
+
+    <ImageView
+        android:id="@+id/second_index_photo_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/second_index_check"
+        android:layout_marginStart="7dp"
+        android:layout_toEndOf="@+id/second_index_photo_text"
+        android:paddingBottom="10dp"
+        android:src="@drawable/icon_photo" />
+
+    <TextView
+        android:id="@+id/second_index_photo_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/second_index_check"
+        android:layout_marginStart="145dp"
+        android:paddingBottom="10dp"
+        android:text="@string/photo"
+        android:textColor="@color/normal_text_color"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/second_index_watch_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/second_index_check"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="20dp"
+        android:text="@string/watch"
+        android:textColor="@color/normal_text_color"
+        android:textSize="16sp" />
+
+    <include layout="@layout/checktable_third_index" />
+
+</RelativeLayout>

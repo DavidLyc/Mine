@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">矿山安全管理</string>
+    <string name="account_hint">账号</string>
+    <string name="password_hint">密码</string>
+    <string name="login">登录</string>
+    <string name="inspect_spot">现场检查</string>
+    <string name="risk_rectify">隐患整改</string>
+    <string name="risk_manage">隐患管理</string>
+    <string name="inspect_manage">检查管理</string>
+    <string name="label_photo">标记</string>
+    <string name="check_list_edit">编辑</string>
+    <string name="notOK_inputHint">请输入不合格说明</string>
+    <string name="check">检查</string>
+    <string name="label">标记</string>
+    <string name="photo">拍照</string>
+    <string name="third_index_spinner_tip">选择检查类别:</string>
+    <string name="saving_checktable">保存</string>
+    <string name="watch">查看</string>
+    <string name="rectify_description">整改说明</string>
+    <string name="peopleforCheck">参检人</string>
+    <string name="check_info_InstitutionChecked">被检单位</string>
+    <string name="certain">确认</string>
+    <string name="detail">详情</string>
+    <string name="checkMemo">隐患描述：</string>
+    <string name="rectify_inst">整改单位</string>
+    <string name="rectify_people">整改责任人</string>
+    <string name="rectify">整改</string>
+    <string name="all_select">全选</string>
+    <string name="cancel">取消</string>
+    <string name="update_userAndInst">更新用户机构表</string>
+    <string name="update_check_table">更新安全检查表</string>
+    <string name="sign_out">退出</string>
+    <string name="upload">提交</string>
+    <string name="foot_tip">没有更多数据啦！</string>
+    <string name="user_login">用户登录</string>
+    <string name="user_account">用户名:</string>
+    <string name="delete">删除</string>
+
+</resources>
