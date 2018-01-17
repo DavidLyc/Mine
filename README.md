@@ -4,7 +4,7 @@
 该软件用于山东某矿业公司进行安全检查
 
 ## 截图
-<img src="ui.jpg" width="35%"/>
+<img src="app/login.png" width="35%"/> <img src="ui.jpg" width="35%"/>
 
 ## 感谢以下开源框架
 
@@ -15,7 +15,7 @@
 - [Rxpermissions](https://github.com/tbruyelle/RxPermissions)
 - [gson](https://github.com/google/gson)
 - [glide](https://github.com/bumptech/glide)
-- [album](https://github.com/yanzhenjie/Album/)
+- [Album](https://github.com/yanzhenjie/Album/)
 - [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper/)
 - [material-dialogs](https://github.com/afollestad/material-dialogs)
 - [material-spinner](https://github.com/jaredrummler/MaterialSpinner)
