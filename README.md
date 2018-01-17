@@ -8,19 +8,20 @@
 
 ## 感谢以下开源框架
 
-* [Butterknife](https://github.com/JakeWharton/butterknife/)
-* [Rxjava](https://github.com/ReactiveX/RxJava/)
-* [RxAndroid](https://github.com/ReactiveX/RxAndroid)
-* [greendao](https://github.com/greenrobot/greenDAO)
-* [Rxpermissions](https://github.com/tbruyelle/RxPermissions)
-* [gson](https://github.com/google/gson)
-* [glide](https://github.com/bumptech/glide)
-* [album](https://github.com/yanzhenjie/Album/)
-* [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper/)
-* [material-dialogs](https://github.com/afollestad/material-dialogs)
-* [material-spinner](https://github.com/jaredrummler/MaterialSpinner)
-* [SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout/)
-* [Umeng](http://mobile.umeng.com/push)
+- [Butterknife](https://github.com/JakeWharton/butterknife/)
+- [Rxjava](https://github.com/ReactiveX/RxJava/)
+- [RxAndroid](https://github.com/ReactiveX/RxAndroid)
+- [greendao](https://github.com/greenrobot/greenDAO)
+- [Rxpermissions](https://github.com/tbruyelle/RxPermissions)
+- [gson](https://github.com/google/gson)
+- [glide](https://github.com/bumptech/glide)
+- [album](https://github.com/yanzhenjie/Album/)
+- [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper/)
+- [material-dialogs](https://github.com/afollestad/material-dialogs)
+- [material-spinner](https://github.com/jaredrummler/MaterialSpinner)
+- [SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout/)
+- 友盟推送
+
 
 ## 许可证
     Copyright 2018 DavidLyc
