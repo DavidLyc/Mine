@@ -4,7 +4,8 @@
 该软件用于山东某矿业公司进行安全检查
 
 ## 截图
-<img src="app/login.png" width="35%"/> <img src="ui.jpg" width="35%"/>
+<img src="app/login.png" width="33%"/> <img src="ui.jpg" width="33%"/>
+
 
 ## 感谢以下开源框架
 
